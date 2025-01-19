@@ -8,8 +8,8 @@ int main(void) {
   scanf("%i", &n2);
   printf("Digite a idade da terceira pessoa: ");
   scanf("%i", &n3);
-  maior = ((n1 > n2) && (n1 > n3)) ? n1: ((n2>n1) && (n2 > n3)) ? n2 : n3;
-  menor = ((n1 < n2) && (n1 < n3)) ? n1 : ((n2 < n1) && (n2 < n3)) ? n2 : n3;
+  maior = ((n1 >= n2) && (n1 >= n3)) ? n1: ((n2>=n1) && (n2 >= n3)) ? n2 : n3;
+  menor = ((n1 <= n2) && (n1 <= n3)) ? n1 : ((n2 <= n1) && (n2 <= n3)) ? n2 : n3;
   if (maior == menor){
       printf("Todas as idades são iguais\n");
   }
