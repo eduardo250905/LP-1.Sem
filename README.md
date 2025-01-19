@@ -1,1 +1,1 @@
-# LP-1.Sem
+Projetos e atividades realizadas durante a disciplina de Lógica de Programação
